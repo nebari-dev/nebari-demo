@@ -1,0 +1,22 @@
+# Uncomment/Add packages when needed
+
+name: nebari-demo
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- qhub
+- ipykernel
+- ipywidgets
+- papermill
+- numpy
+- pandas
+- s3fs
+- pyarrow
+- jupyterlab
+# - gdal
+# - rasterio
+- qhub-dask
+- pip:
+  - kbatch
+  # - rio-cogeo
