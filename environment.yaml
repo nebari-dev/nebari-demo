@@ -1,22 +1,21 @@
-# Uncomment/Add packages when needed
+# Add packages when needed
 
 name: nebari-demo
 channels:
 - conda-forge
 dependencies:
 - python=3.9
-- qhub
 - ipykernel
 - ipywidgets
-- papermill
 - numpy
 - pandas
+- matplotlib
 - s3fs
 - pyarrow
 - jupyterlab
-# - gdal
-# - rasterio
-- qhub-dask
+- jupyterlab-spellchecker
+- nebari-dask
+- pip
 - pip:
-  - kbatch
-  # - rio-cogeo
+  - nebari
+  - nasdaq-data-link
