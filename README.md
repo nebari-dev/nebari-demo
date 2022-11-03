@@ -77,7 +77,18 @@ To deploy your own Nebari cluster, [follow these instructions in the Nebari docu
 
 ## Contributing 🤝
 
-<!-- TODO -->
+Thanks for contributing to this demo!
+
+The complete [contributing guidelines are in our documentation](https://www.nebari.dev/docs/community/#how-to-contribute).
+Here's a short reference:
+
+1. Fork this repository on GitHub.
+2. Clone your fork on the repository: `git clone https://github.com/<your-username>/nebari-demo.git`
+3. Create your development environment using conda: `conda env create -f environment.yaml`
+4. Create a new brnach and update the notebooks and files.
+5. Open a pull request with your changes and go through the PR checklist!
+
+> Make sure to follow the [Nebari documentation style guide](https://www.nebari.dev/docs/community/style-guide) while writing and editing content.
 
 ## Code of conduct 📜
 
@@ -85,4 +96,5 @@ To guarantee a welcoming and friendly community, we require all community member
 
 ## Acknowledgements 💖
 
-Nebari is built on top of amazing open source tools like JupyterHub, Terraform, Kubernetes, conda, Dask, Jitsi, and so many more. We thank all the tool maintainers and contributors for their hard work.
+Nebari is built on top of amazing open source tools like JupyterHub, Terraform, Kubernetes, conda, Dask, Jitsi, and so many more.
+We thank all the tool maintainers and contributors for their hard work!
