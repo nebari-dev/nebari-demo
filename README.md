@@ -17,36 +17,41 @@ This repo contains a walkthrough of many of Nebari's high-level features includi
 
 ## Get started
 
-To follow along with the material covered in this presentation, please navigate to [demo.nebari.dev](https://demo.nebari.dev).
+To follow along with the material covered in this presentation, navigate to [demo.nebari.dev](https://demo.nebari.dev).
 
 
 ### Login for the first time
 
-To login for the first time, please follow these instructions:
+To login for the first time, follow these instructions:
 
 1. Click on the `Sign in with Keycloak` button.
 
-*insert screenshot here*
+<img src="./assets/keycloak-sign-in.png" alt="">
 
 2. Click `Register` at the bottom of the sign in prompt.
 
-*insert screenshot here*
+<img src="./assets/keycloak-register.png" alt="">
 
 3. Fill out the short form to register as a new user.
 
-*insert screenshot here*
+<img src="./assets/keycloak-register-form.png" alt="">
 
-> Your user account will promptly be deleted after the conclusion of the tutorial. 
+> Your user account will promptly be deleted after the conclusion of the tutorial.
 
-> We are not storing your email address and it will never be shared with anyone.
+> The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. You can also use a fake address here.
 
-4. For `Server Options`, select `Small instance` and then click `Start`.
+4. In the Hub page that opens automatically, click on the "Start My Server" button.
 
-*insert screenshot here*
+<img src="./assets/start-server.png" alt="">
+
+
+5. For `Server Options`, select `Small instance` and then click `Start`.
+
+<img src="./assets/server-options.png" alt="">
 
 > If your server doesn't launch within 30 seconds, this means the cluster is in the process of auto-scaling to meet the new demand. Please be patient, this might take up to several minutes.
 
-5. From here, you can clone this repo in two ways,from the Jupyter Terminal or from the JupyterLab git extention
+5. From here, you can clone this repo in two ways, from the Jupyter terminal or from the JupyterLab git extention.
     - Clone this repo from the Jupyter Terminal:
 
     ```
@@ -58,7 +63,6 @@ To login for the first time, please follow these instructions:
     ![Image of the JupyterLab git extension](./assets/jupyterlab-git-extension.png)
 
 6. Finally, open the `00_overview.ipynb` notebook to follow along.
-
 
 ## Deploy your own Nebari cluster
 
