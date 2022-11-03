@@ -49,7 +49,7 @@ To login for the first time, follow these instructions:
 
 > If your server doesn't launch within 30 seconds, this means the cluster is in the process of auto-scaling to meet the new demand. Please be patient, this might take up to several minutes.
 
-5. From here, you can clone this repo in two ways, from the Jupyter terminal or from the JupyterLab git extention.
+6. From here, you can clone this repo in two ways, from the Jupyter terminal or from the JupyterLab git extention.
     - Clone this repo from the Jupyter Terminal:
 
     ```
@@ -60,7 +60,7 @@ To login for the first time, follow these instructions:
 
     ![Image of the JupyterLab git extension](./assets/jupyterlab-git-extension.png)
 
-6. Finally, open the `00_overview.ipynb` notebook to follow along.
+7. Finally, open the `00_overview.ipynb` notebook to follow along.
 
 ### Deploy your own Nebari cluster ⚙️
 
