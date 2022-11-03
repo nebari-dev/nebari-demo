@@ -12,10 +12,9 @@
 
 > This material was presented at PyDataNYC 2022 🗽
 
-This repo contains a walkthrough of many of Nebari's high-level features including Jupyter, Dask, conda-store, etc.
+This repo contains a walkthrough of many of Nebari's high-level features including Jupyter, Dask, conda-store, and more.
 
-
-## Get started
+## Get started 💻
 
 To follow along with the material covered in this presentation, navigate to [demo.nebari.dev](https://demo.nebari.dev).
 
@@ -44,7 +43,6 @@ To login for the first time, follow these instructions:
 
 <img src="./assets/start-server.png" alt="">
 
-
 5. For `Server Options`, select `Small instance` and then click `Start`.
 
 <img src="./assets/server-options.png" alt="">
@@ -64,19 +62,27 @@ To login for the first time, follow these instructions:
 
 6. Finally, open the `00_overview.ipynb` notebook to follow along.
 
-## Deploy your own Nebari cluster
+### Deploy your own Nebari cluster ⚙️
 
 If you were not in attendance at the live PyDataNYC tutorial, you can deploy your own Nebari cluster and clone this repo to walk through the several of the high-level features.
 
-To deploy your own Nebari cluster, please visit [github.com/nebari-dev/nebari](https://github.com/nebari-dev/nebari).
+To deploy your own Nebari cluster, [follow these instructions in the Nebari documentation](https://www.nebari.dev/docs/get-started/installing-nebari).
 
-> Please note that the material presented in this repo need to be run on a live Nebari deployment. Many of the features highlighed in this repo are not available in basic JupyterHub deployments.
+> Note that the material presented in this repo need to be run on a live Nebari deployment. Many of the features highlighed in this repo are not available in basic JupyterHub deployments.
 
+## More resources 💬
 
-## More resources
-* Get help:
-* Nebari documentation:
+* Read [the documentation](https://www.nebari.dev/docs) to learn more about Nebari.
+* Post any questions on [our community forum](https://github.com/orgs/nebari-dev/discussions).
 
+## Contributing 🤝
 
-## Acknowledgements
-TBD
+<!-- TODO -->
+
+## Code of conduct 📜
+
+To guarantee a welcoming and friendly community, we require all community members to follow our [Code of Conduct](https://github.com/Quansight/.github/blob/master/CODE_OF_CONDUCT.md).
+
+## Acknowledgements 💖
+
+Nebari is built on top of amazing open source tools like JupyterHub, Terraform, Kubernetes, conda, Dask, Jitsi, and so many more. We thank all the tool maintainers and contributors for their hard work.
