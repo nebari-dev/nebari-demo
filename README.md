@@ -12,41 +12,44 @@
 
 > This material was presented at PyDataNYC 2022 🗽
 
-This repo contains a walkthrough of many of Nebari's high-level features including Jupyter, Dask, conda-store, etc.
+This repo contains a walkthrough of many of Nebari's high-level features including Jupyter, Dask, conda-store, and more.
 
+## Get started 💻
 
-## Get started
-
-To follow along with the material covered in this presentation, please navigate to [demo.nebari.dev](https://demo.nebari.dev).
+To follow along with the material covered in this presentation, navigate to [demo.nebari.dev](https://demo.nebari.dev).
 
 
 ### Login for the first time
 
-To login for the first time, please follow these instructions:
+To login for the first time, follow these instructions:
 
 1. Click on the `Sign in with Keycloak` button.
 
-*insert screenshot here*
+<img src="./assets/keycloak-sign-in.png" alt="">
 
 2. Click `Register` at the bottom of the sign in prompt.
 
-*insert screenshot here*
+<img src="./assets/keycloak-register.png" alt="">
 
 3. Fill out the short form to register as a new user.
 
-*insert screenshot here*
+<img src="./assets/keycloak-register-form.png" alt="">
 
-> Your user account will promptly be deleted after the conclusion of the tutorial. 
+> Your user account will promptly be deleted after the conclusion of the tutorial.
 
-> We are not storing your email address and it will never be shared with anyone.
+> The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. You can also use a fake address here.
 
-4. For `Server Options`, select `Small instance` and then click `Start`.
+4. In the Hub page that opens automatically, click on the "Start My Server" button.
 
-*insert screenshot here*
+<img src="./assets/start-server.png" alt="">
+
+5. For `Server Options`, select `Small instance` and then click `Start`.
+
+<img src="./assets/server-options.png" alt="">
 
 > If your server doesn't launch within 30 seconds, this means the cluster is in the process of auto-scaling to meet the new demand. Please be patient, this might take up to several minutes.
 
-5. From here, you can clone this repo in two ways,from the Jupyter Terminal or from the JupyterLab git extention
+6. From here, you can clone this repo in two ways, from the Jupyter terminal or from the JupyterLab git extention.
     - Clone this repo from the Jupyter Terminal:
 
     ```
@@ -57,22 +60,41 @@ To login for the first time, please follow these instructions:
 
     ![Image of the JupyterLab git extension](./assets/jupyterlab-git-extension.png)
 
-6. Finally, open the `00_overview.ipynb` notebook to follow along.
+7. Finally, open the `00_overview.ipynb` notebook to follow along.
 
-
-## Deploy your own Nebari cluster
+### Deploy your own Nebari cluster ⚙️
 
 If you were not in attendance at the live PyDataNYC tutorial, you can deploy your own Nebari cluster and clone this repo to walk through the several of the high-level features.
 
-To deploy your own Nebari cluster, please visit [github.com/nebari-dev/nebari](https://github.com/nebari-dev/nebari).
+To deploy your own Nebari cluster, [follow these instructions in the Nebari documentation](https://www.nebari.dev/docs/get-started/installing-nebari).
 
-> Please note that the material presented in this repo need to be run on a live Nebari deployment. Many of the features highlighed in this repo are not available in basic JupyterHub deployments.
+> Note that the material presented in this repo need to be run on a live Nebari deployment. Many of the features highlighed in this repo are not available in basic JupyterHub deployments.
 
+## More resources 💬
 
-## More resources
-* Get help:
-* Nebari documentation:
+* Read [the documentation](https://www.nebari.dev/docs) to learn more about Nebari.
+* Post any questions on [our community forum](https://github.com/orgs/nebari-dev/discussions).
 
+## Contributing 🤝
 
-## Acknowledgements
-TBD
+Thanks for contributing to this demo!
+
+The complete [contributing guidelines are in our documentation](https://www.nebari.dev/docs/community/#how-to-contribute).
+Here's a short reference:
+
+1. Fork this repository on GitHub.
+2. Clone your fork on the repository: `git clone https://github.com/<your-username>/nebari-demo.git`
+3. Create your development environment using conda: `conda env create -f environment.yaml`
+4. Create a new brnach and update the notebooks and files.
+5. Open a pull request with your changes and go through the PR checklist!
+
+> Make sure to follow the [Nebari documentation style guide](https://www.nebari.dev/docs/community/style-guide) while writing and editing content.
+
+## Code of conduct 📜
+
+To guarantee a welcoming and friendly community, we require all community members to follow our [Code of Conduct](https://github.com/Quansight/.github/blob/master/CODE_OF_CONDUCT.md).
+
+## Acknowledgements 💖
+
+Nebari is built on top of amazing open source tools like JupyterHub, Terraform, Kubernetes, conda, Dask, Jitsi, and so many more.
+We thank all the tool maintainers and contributors for their hard work!
