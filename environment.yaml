@@ -17,6 +17,8 @@ dependencies:
 - nebari-dask
 - panel
 - hvplot
+- streamlit
+- cdsdashboards-singleuser
 - pip
 - pip:
   - nebari
