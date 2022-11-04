@@ -3,7 +3,6 @@
 name: nebari-demo
 channels:
 - conda-forge
-- pyviz
 dependencies:
 - python=3.9
 - ipykernel
