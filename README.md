@@ -34,7 +34,7 @@ To login for the first time, follow these instructions:
 
 <img src="./assets/keycloak-register-form.png" alt="" width="50%">
 
-> You login will be active through the weekend for those who wish to play with the platform some more.
+> Your account will be active through the weekend for those who wish to play with the platform some more.
 
 > The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. **You can also use a fake address here**.
 
