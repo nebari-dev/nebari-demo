@@ -15,6 +15,10 @@ dependencies:
 - jupyterlab
 - jupyterlab-spellchecker
 - nebari-dask
+- panel
+- hvplot
+- streamlit
+- cdsdashboards-singleuser
 - pip
 - pip:
   - nebari
