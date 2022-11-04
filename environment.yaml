@@ -3,6 +3,7 @@
 name: nebari-demo
 channels:
 - conda-forge
+- pyviz
 dependencies:
 - python=3.9
 - ipykernel
@@ -15,6 +16,8 @@ dependencies:
 - jupyterlab
 - jupyterlab-spellchecker
 - nebari-dask
+- panel
+- hvplot
 - pip
 - pip:
   - nebari
