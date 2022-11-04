@@ -34,9 +34,9 @@ To login for the first time, follow these instructions:
 
 <img src="./assets/keycloak-register-form.png" alt="" width="50%">
 
-> Your user account will promptly be deleted after the conclusion of the tutorial.
+> You login will be active through the weekend for those who wish to play with the platform some more.
 
-> The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. You can also use a fake address here.
+> The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. **You can also use a fake address here**.
 
 4. In the Hub page that opens automatically, click on the "Start My Server" button.
 
