@@ -1,0 +1,9 @@
+[submodule "dashboard_examples/plotly-dash/dash-sample-apps"]
+	path = dashboard_examples/plotly-dash/dash-sample-apps
+	url = https://github.com/plotly/dash-sample-apps
+[submodule "dashboard_examples/streamlit/streamlit-dataview"]
+	path = dashboard_examples/streamlit/streamlit-dataview
+	url = git@github.com:jkanner/streamlit-dataview.git
+[submodule "dashboard_examples/voila/voila"]
+	path = dashboard_examples/voila/voila
+	url = git@github.com:voila-dashboards/voila.git
