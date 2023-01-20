@@ -20,3 +20,10 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
     pip install streamlit-image-comparison
 
     ```
+
+3. Run the app.
+   ```
+   cd example-app-image-comparison
+   streamlit run streamlit_app.py
+
+   ```
