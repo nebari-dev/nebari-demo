@@ -1,0 +1,5 @@
+name: streamlit-dashboard
+channels:
+- conda-forge
+dependencies:
+- streamlit
