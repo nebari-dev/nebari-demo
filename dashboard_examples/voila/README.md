@@ -1,6 +1,6 @@
-# 🔭 Example app image comparison
+Example Conformal Maps app to demonstrate Voila
 
-This code is found here: https://github.com/streamlit/example-app-image-comparison/
+This code is found here: https://github.com/zolabar/Conformal-Maps
 
 It is added as a submodule to this repo.  The easiest way to run it is to do the following.
 
@@ -14,13 +14,13 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
    
     ```
     conda env create -f environment.yml
-    conda activate streamlit-dashboard
+    conda activate voila-dashboard
 
     ```
 
 3. Run the app.
    ```
-   cd example-app-image-comparison
-   streamlit run streamlit_app.py
+   cd Conformal-Maps
+   voila example_voila.ipynb
 
    ```

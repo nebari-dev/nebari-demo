@@ -1,9 +1,13 @@
-The code for the example apps is found here: https://github.com/plotly/dash-sample-apps
+The code for example apps is found here: https://github.com/plotly/dash-sample-apps
 
 In order to run the apps in each folder, you will need to go to a specific example and install the dependencies in requirements.txt.  For example,
 
 ```
     pip install -r requirements.txt
+
+    or
+
+    conda install -n plotly-dashboard requirements.txt
 ```
 
 However, if you want to create a conda environment that can run a few interesting examples of our choosing, you can do the following:
