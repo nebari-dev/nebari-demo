@@ -3,3 +3,4 @@ channels:
 - conda-forge
 dependencies:
 - streamlit
+- streamlit-image-comparison
