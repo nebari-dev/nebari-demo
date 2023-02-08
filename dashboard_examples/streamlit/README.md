@@ -1,6 +1,6 @@
 # 🔭 Example app image comparison
 
-This code is found here: https://github.com/streamlit/example-app-image-comparison/
+This code is found here: https://github.com/fcakyon/streamlit-image-comparison
 
 It is added as a submodule to this repo.  The easiest way to run it is to do the following.
 
@@ -24,3 +24,8 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
    streamlit run streamlit_app.py
 
    ```
+
+## Deploy app on CDS Dashboards
+
+To deploy on Nebari with CDS Dashboards, choose nebari-git-dashboard environment and point to  "dashboard_examples/streamlit/streamlit-image-comparison/app.py" in your jupyter tree.
+Choose "streamlist" as your framework.

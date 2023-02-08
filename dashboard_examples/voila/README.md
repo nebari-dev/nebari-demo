@@ -24,3 +24,7 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
    voila example_voila.ipynb
 
    ```
+
+## Deploy app on CDS Dashboards
+
+To deploy on Nebari with CDS Dashboards, choose nebari-git-dashboard environment and point to  "dashboard_examples/voila/Conformal-Maps/example_voila.ipynb" in your jupyter tree.  Choose "voia" as your framework.

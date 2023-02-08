@@ -10,7 +10,7 @@ In order to run the apps in each folder, you will need to go to a specific examp
     conda install -n plotly-dashboard requirements.txt
 ```
 
-However, if you want to create a conda environment that can run a few interesting examples of our choosing, you can do the following:
+However, if you want to create a conda environment that can run an interesting example of our choosing, you can do the following:
 
 1. Create conda environment using environment.yml file.
    
@@ -20,9 +20,13 @@ However, if you want to create a conda environment that can run a few interestin
 
     ```
 
-2. There are 3 apps that will run with the packages installed from the environment.yml file.  These are dash-brain-viewer, dash-oil-and-gas, and dash-uber-rides-demo. To run one of them do the following:
+2.  Run the app. 
    
    ```
-   python run dash-oil-and-gas/app.py
+   python run dash-opioid-epidemic/app.py
 
    ```
+
+## Run apps on CDS Dashboards
+
+To deploy on Nebari with CDS Dashboards, choose nebari-git-dashboard environment and point to  "dashboard_examples/plotly-dash/dash-sample-apps/apps/dash-opioid-epidemic/app.py" in your jupyter tree. Choose "plotlydash" as your framework.
