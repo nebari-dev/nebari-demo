@@ -29,4 +29,8 @@ However, if you want to create a conda environment that can run an interesting e
 
 ## Run apps on CDS Dashboards
 
-To deploy on Nebari with CDS Dashboards, choose nebari-git-dashboard environment and point to  "dashboard_examples/plotly-dash/dash-sample-apps/apps/dash-opioid-epidemic/app.py" in your jupyter tree. Choose "plotlydash" as your framework.
+To deploy on Nebari with CDS Dashboards: 
+
+1. Choose the nebari-git-dashboard environment 
+2. Point to  "dashboard_examples/plotly-dash/dash-sample-apps/apps/dash-opioid-epidemic/app.py" in your jupyter tree. 
+3. Choose "plotlydash" as your framework.

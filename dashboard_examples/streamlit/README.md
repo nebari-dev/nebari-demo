@@ -27,5 +27,8 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
 
 ## Deploy app on CDS Dashboards
 
-To deploy on Nebari with CDS Dashboards, choose nebari-git-dashboard environment and point to  "dashboard_examples/streamlit/streamlit-image-comparison/app.py" in your jupyter tree.
-Choose "streamlist" as your framework.
+To deploy on Nebari with CDS Dashboards:
+
+1. Choose nebari-git-dashboard environment.
+2. Point to  "dashboard_examples/streamlit/streamlit-image-comparison/app.py" in your jupyter tree.
+3. Choose "streamlit" as your framework.
