@@ -1,16 +1,21 @@
-# 🔭 Example app image comparison
+# Streamlit example app
 
-This code is found here: https://github.com/fcakyon/streamlit-image-comparison
+The following example can be deployed via CDS dashboards on Nebari using the default dashboard environment that ships with Nebari.  
 
-It is added as a submodule to this repo.  The easiest way to run it is to do the following.
+Make sure to do the following when you are setting up your dashboard:
 
-1. Initiate the submodule:
-    ```
-    git submodule init
-    git submodule update
-    ```
+1. Choose the nebari-git-dashboard environment. 
+   
+2. Point to  "dashboard_examples/streamlit/streamlit-image-comparison/app.py" in your jupyter tree. 
+   
+3. Choose "streamlit" as your framework.
 
-2. Create conda environment. 
+Note:  If you do not see anything in the folder above, see the note below about initializing the submodule.
+
+Alternatively, you can run the app by installing the environment outlined in the environment.yml file by following these few steps:
+
+
+1. Create conda environment using environment.yml file.
    
     ```
     conda env create -f environment.yml
@@ -18,17 +23,23 @@ It is added as a submodule to this repo.  The easiest way to run it is to do the
 
     ```
 
-3. Run the app.
+2.  Run the app. 
+   
    ```
    cd example-app-image-comparison
    streamlit run streamlit_app.py
 
    ```
 
-## Deploy app on CDS Dashboards
 
-To deploy on Nebari with CDS Dashboards:
+Note: The code for this example app is found here: https://github.com/Quansight/streamlit-image-comparison.git.   It is set up as a submodule in the nebari-demo repo.  If you are not seeing anything listed in `dashboard_examples/streamlit/streamlit-image-comparison` you will need to run the following commands:
 
-1. Choose nebari-git-dashboard environment.
-2. Point to  "dashboard_examples/streamlit/streamlit-image-comparison/app.py" in your jupyter tree.
-3. Choose "streamlit" as your framework.
+```
+    git submodule init
+    git submodule update
+
+```
+
+
+
+
