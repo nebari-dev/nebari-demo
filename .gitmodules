@@ -1,9 +1,9 @@
 [submodule "dashboard_examples/plotly-dash/dash-sample-apps"]
 	path = dashboard_examples/plotly-dash/dash-sample-apps
 	url = https://github.com/plotly/dash-sample-apps.git
-[submodule "dashboard_examples/streamlit/streamlit-image-comparison"]
-	path = dashboard_examples/streamlit/streamlit-image-comparison
-	url = https://github.com/fcakyon/streamlit-image-comparison.git
 [submodule "dashboard_examples/voila/Conformal-Maps"]
 	path = dashboard_examples/voila/Conformal-Maps
 	url = https://github.com/zolabar/Conformal-Maps.git
+[submodule "dashboard_examples/streamlit/streamlit-image-comparison"]
+	path = dashboard_examples/streamlit/streamlit-image-comparison
+	url = https://github.com/Quansight/streamlit-image-comparison.git
