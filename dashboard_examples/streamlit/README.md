@@ -35,8 +35,15 @@ Alternatively, you can run the app by installing the environment outlined in the
 Note: The code for this example app is found here: https://github.com/Quansight/streamlit-image-comparison.git.   It is set up as a submodule in the nebari-demo repo.  If you are not seeing anything listed in `dashboard_examples/streamlit/streamlit-image-comparison` you will need to run the following commands:
 
 ```
-    git submodule init
-    git submodule update
+git submodule init
+git submodule update
+
+```
+
+Every once in awhile, the submodules may be updated.  You will need to run the following command:
+
+```
+git submodule update --remote
 
 ```
 

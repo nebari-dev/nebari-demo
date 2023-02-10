@@ -45,7 +45,14 @@ In order to run the apps in any other folder, you will need to go to a specific 
 Note: The code for this example app is found here: https://github.com/plotly/dash-sample-apps.   It is set up as a submodule in the nebari-demo repo.  If you are not seeing anything listed in `nebari-demo/dashboard_examples/plotly-dash/dash-sample-apps` you will need to run the following commands:
 
 ```
-    git submodule init
-    git submodule update
+git submodule init
+git submodule update
+
+```
+
+Every once in awhile, the submodules may be updated.  You will need to run the following command:
+
+```
+git submodule update --remote
 
 ```
