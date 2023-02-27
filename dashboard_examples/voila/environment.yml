@@ -1,0 +1,11 @@
+name: voila-dashboard
+channels:
+- conda-forge
+dependencies:
+- sympy
+- plotly
+- numpy
+- jupyter
+- voila
+- nodejs
+- jupyterlab

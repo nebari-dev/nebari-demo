@@ -5,14 +5,13 @@ Its a loose reimagining of the [original viewer](https://tidesandcurrents.noaa.g
 It is intended as a proof of concept and demonstration of capabilities in Panel and  
 Holoviews.   
   
-In this notebook you can see that we can interactively build our individual dashboard  
+In the `water_dashboard.ipynb` notebook you can see that we can interactively build our individual dashboard  
 pages here in the notebook. Then, once we are happy with the results, we can move on  
 to building a multi-page app by stringing together the individual dashboard pages.  
 We by add the suffix of `.servable()` to the final Panel object we want as our  
 final dashboard. Finally, this notebook can then be deployed via command line:  
 `panel serve water_dashboard.ipynb`. Alternately, it can be served via CDSDashboards  
-on a JupyterHub or Nebari server. A tutorial of deploying this notebooks on 
-Nebari can be found [here]().
+on a JupyterHub or Nebari server. 
   
 
 ## Caveats
