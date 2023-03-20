@@ -1,0 +1,19 @@
+# All dashboards in this folder can be run with this environment
+# These are pinned to ensure consistency, the pins should be updated 
+# intermittently after confirmation that the dashboards are all working. 
+name: dashboard
+channels:
+- conda-forge
+dependencies:
+- python
+- ipykernel
+- ipywidgets
+- nebari-dask==2022.10.1
+- param
+- python-graphviz
+- matplotlib
+- panel
+- voila
+- streamlit
+- dash
+- cdsdashboards-singleuser

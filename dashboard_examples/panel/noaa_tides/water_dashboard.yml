@@ -1,0 +1,20 @@
+name: water_dashboard
+channels:
+- conda-forge
+dependencies:
+- python<=3.10  # geoviews/bokeh issues with rendering
+- pip
+- cdsdashboards-singleuser >=0.5.6
+- jupyterlab
+- jupyter_bokeh
+- pandas
+- holoviews
+- geopandas
+- geopy
+- geoviews
+- openpyxl
+- param
+- panel
+- rich
+- pip:
+  - noaa-coops
