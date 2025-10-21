@@ -133,3 +133,6 @@ dmypy.json
 
 # Dask
 dask-worker-space/
+
+# MLflow demo
+grid_search_results.csv
