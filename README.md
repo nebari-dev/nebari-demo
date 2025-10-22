@@ -10,55 +10,12 @@
 
 # Nebari demo
 
-> This material was presented at PyDataNYC 2022 🗽
-
 This repo contains a walkthrough of many of Nebari's high-level features including Jupyter, Dask, conda-store, and more.
+Reach out to the on-site team for login details!
 
-## Get started 💻
+## Deploy your own Nebari cluster ⚙️
 
-To follow along with the material covered in this presentation, navigate to [demo.nebari.dev](https://demo.nebari.dev).
-
-### Login for the first time
-
-To login for the first time, follow these instructions:
-
-1. Click on the `Sign in with Keycloak` button.
-
-<img src="./assets/keycloak-sign-in.png" alt="" width="50%">
-
-2. Click `Register` at the bottom of the sign in prompt.
-
-<img src="./assets/keycloak-register.png" alt="" width="50%">
-
-3. Fill out the short form to register as a new user.
-
-<img src="./assets/keycloak-register-form.png" alt="" width="50%">
-
-> Your account will be active through the weekend for those who wish to play with the platform some more.
-
-> The email address will serve as your username. We are not storing your email address and it will never be shared with anyone. **You can also use a fake address here**.
-
-4. In the Hub page that opens automatically, click on the "Start My Server" button.
-
-<img src="./assets/start-server.png" alt="" width="50%">
-
-5. For `Server Options`, select `Small instance` and then click `Start`.
-
-<img src="./assets/server-options.png" alt="" width="50%">
-
-> If your server doesn't launch within 30 seconds, this means the cluster is in the process of auto-scaling to meet the new demand. Please be patient, this might take up to several minutes.
-
-6. From here, you can clone this repo in two ways, from the Jupyter terminal or from the JupyterLab git extention.
-    - Clone this repo from the Jupyter terminal: `git clone https://github.com/nebari-dev/nebari-demo`
-    - Clone this repo using JupyterLab git extention
-
-     <img src="./assets/jupyterlab-git-extension.png" alt="Image of the JupyterLab git extension" width="40%">
-
-7. Finally, open the `00_overview.ipynb` notebook to follow along.
-
-### Deploy your own Nebari cluster ⚙️
-
-If you were not in attendance at the live PyDataNYC tutorial, you can deploy your own Nebari cluster and clone this repo to walk through the several of the high-level features.
+If you did not attend any live event, you can still deploy your own Nebari cluster and clone this repo to check out the high-level features.
 
 To deploy your own Nebari cluster, [follow these instructions in the Nebari documentation](https://www.nebari.dev/docs/get-started/installing-nebari).
 
