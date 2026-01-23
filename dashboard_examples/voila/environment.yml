@@ -1,4 +1,3 @@
-name: voila-dashboard
 channels:
 - conda-forge
 dependencies:

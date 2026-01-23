@@ -1,6 +1,6 @@
 # Python Script to run with VS Code
 
-# Motivation: Show something we can only do with VS Code, for example: visaul debugging.
+# Motivation: Show something we can only do with VS Code, for example: visual debugging.
 
 import nasdaqdatalink
 import pandas as pd
@@ -8,7 +8,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
 
-nasdaqdatalink.read_key(filename="~/shared/PyDataNYC/nasdaq_api_key")
+nasdaqdatalink.read_key(filename="~/nasdaq_api_key") # or wherever you saved your personal API key
 _x = 1e3
 date = pandas.DatetimeIndex(["2000-01-01"])[0]
 data = nasdaqdatalink.get("FRED/GDP")

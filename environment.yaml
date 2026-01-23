@@ -1,25 +1,31 @@
-# Add packages when needed
-
-name: nebari-demo
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- python=3.9
-- ipykernel
-- ipywidgets
-- numpy
-- pandas
-- matplotlib
-- s3fs
-- pyarrow
-- jupyterlab
-- jupyterlab-spellchecker
-- nebari-dask
-- panel
-- hvplot
-- streamlit
-- cdsdashboards-singleuser
-- pip
-- pip:
-  - nebari
-  - nasdaq-data-link
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - numpy
+  - pandas
+  - matplotlib
+  - s3fs
+  - pyarrow
+  - jupyterlab
+  - nebari-dask
+  - panel
+  - hvplot
+  - streamlit
+  - scikit-learn
+  - bokeh
+  - gcsfs
+  - tensorflow
+  - polars
+  - bokeh_sampledata
+  - papermill
+  - pystac-client
+  - planetary-computer
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - nasdaq-data-link
+variables: {}
